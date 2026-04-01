@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root{
+ 
+  --sx-green-950: #062d13;
+  --sx-green-900: #064e1a;
+  --sx-green-700: #0c7c39;
+  --sx-teal: #00e5b0;
+
+
+}
+
+body{
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* small helper */
+.container-custom{ max-width: var(--container); margin-left:auto; margin-right:auto; padding-left:1rem; padding-right:1rem; }
